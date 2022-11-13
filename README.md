@@ -1,5 +1,8 @@
 # moprogress
 
+[![ci](https://github.com/pcj/moprogress/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/pcj/moprogress/actions/workflows/ci.yml)
+[![godoc](https://godoc.org/github.com/pcj/moprogress?status.svg)](https://godoc.org/github.com/pcj/moprogress)
+
 The progress bar from the docker/moby project, repackaged  as a standalone library.
 
 Have you ever wanted a progress bar for your golang-based CLI tool only to find that 
@@ -37,3 +40,5 @@ progress.WriteProgress(progress.Progress{
     Units:   "bytes",
 })
 ```
+
+The `progress.ID` field is used as the key to identify the progress bar to update. 
