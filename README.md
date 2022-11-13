@@ -1,6 +1,6 @@
 # moprogress
 
-[![ci](https://github.com/pcj/moprogress/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/pcj/moprogress/actions/workflows/ci.yml)
+[![ci](https://github.com/pcj/moprogress/actions/workflows/ci.yaml/badge.svg?branch=master&event=push)](https://github.com/pcj/moprogress/actions/workflows/ci.yaml)
 [![godoc](https://godoc.org/github.com/pcj/moprogress?status.svg)](https://godoc.org/github.com/pcj/moprogress)
 
 The progress bar from the docker/moby project, repackaged  as a standalone library.
