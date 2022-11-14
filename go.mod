@@ -1,4 +1,4 @@
-module github.com/pcj/moprogress
+module github.com/pcj/mobyprogress
 
 go 1.19
 

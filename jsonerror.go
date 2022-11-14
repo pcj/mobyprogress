@@ -1,4 +1,4 @@
-package moprogress
+package mobyprogress
 
 // JSONError wraps a concrete Code and Message, `Code` is
 // is an integer error code, `Message` is the error message.

@@ -1,4 +1,4 @@
-package moprogress
+package mobyprogress
 
 import "github.com/moby/term"
 

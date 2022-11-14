@@ -1,4 +1,4 @@
-package moprogress
+package mobyprogress
 
 type chanOutput chan<- Progress
 
