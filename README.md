@@ -1,7 +1,7 @@
-# moprogress
+# mobyprogress
 
-[![ci](https://github.com/pcj/moprogress/actions/workflows/ci.yaml/badge.svg?branch=master&event=push)](https://github.com/pcj/moprogress/actions/workflows/ci.yaml)
-[![godoc](https://godoc.org/github.com/pcj/moprogress?status.svg)](https://godoc.org/github.com/pcj/moprogress)
+[![ci](https://github.com/pcj/mobyprogress/actions/workflows/ci.yaml/badge.svg?branch=master&event=push)](https://github.com/pcj/mobyprogress/actions/workflows/ci.yaml)
+[![godoc](https://godoc.org/github.com/pcj/mobyprogress?status.svg)](https://godoc.org/github.com/pcj/mobyprogress)
 
 The progress bar from the docker/moby project, repackaged  as a standalone library.
 
@@ -16,7 +16,7 @@ this code is considered "complete".
 # Installation
 
 ```
-go get github.com/pcj/moprogress@latest
+go get github.com/pcj/mobyprogress@latest
 ```
 
 # Usage
@@ -24,9 +24,9 @@ go get github.com/pcj/moprogress@latest
 Create a `moprogess.Output` instance over an `io.Writer`:
 
 ```go
-out := moprogress.NewOut(os.Stdout)
+out := mobyprogress.NewOut(os.Stdout)
 
-progress := moprogress.NewProgressOutput(out)
+progress := mobyprogress.NewProgressOutput(out)
 ```
 
 Then, send progress updates to the output:
