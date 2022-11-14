@@ -21,7 +21,7 @@ go get github.com/pcj/mobyprogress@latest
 
 # Usage
 
-Create a `moprogess.Output` instance over an `io.Writer`:
+Create a `mobyprogess.Output` instance over an `io.Writer`:
 
 ```go
 out := mobyprogress.NewOut(os.Stdout)
